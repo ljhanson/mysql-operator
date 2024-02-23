@@ -4,7 +4,7 @@
 # Licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl/
 #
 
-ARCH='amd64'; [ -n "$1" ] && ARCH="${1}"
+ARCH='arm64'; [ -n "$1" ] && ARCH="${1}"
 set -e
 
 IMG_TAG=$(./tag.sh)
